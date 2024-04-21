@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import AboutPage from "./components/About";
+import { FaHandsClapping } from "react-icons/fa6";
+import 'animate.css';
+import Skills from "./components/Skills";
+import Portofolio from "./components/Portofolio";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      <AboutPage/>
+      <Skills />
+      <Portofolio />
+      <Contact/>
+      <Footer />
+    </>
   );
 }
 

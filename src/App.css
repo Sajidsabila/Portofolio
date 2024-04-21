@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap");
+body {
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
 }
@@ -12,7 +16,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+Navbar {
+  font-family: "Poppins", sans-serif;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +34,70 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home {
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(226 232 240);
+  display: flex;
+  align-items: center;
+}
+
+.home h2 {
+  font-family: "Poppins", sans-serif;
+  color: #0b3fa5;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.hands {
+  font-size: 30px;
+  color: #959f08;
+}
+.icon-sosmed {
+  font-size: 24px;
+}
+a {
+  color: #282c34;
+}
+.profile {
+  width: 300px;
+  height: 300px;
+  border: 10px solid #0b3fa5;
+}
+a:hover {
+  color: #0b3fa5;
+}
+link:hover {
+  color: rgb(135, 135, 155);
+}
+.about-me {
+  color: #0b3fa5;
+}
+.text-about {
+  font-size: 19px;
+  color: rgb(51, 50, 50);
+  font-weight: 400;
+}
+.skills-card {
+  width: 150px;
+  height: 120px;
+  border: transparent;
+  background-color: rgb(251, 251, 251);
+}
+
+.skills-card:hover {
+  background-color: #0b3fa5;
+  transition: 1s ease-in-out;
+}
+.skills-image {
+  width: 110px;
+  line-height: 50%;
+}
+
+#skills {
+  background-color: rgb(226 232 240);
+  width: 100%;
+}
+
+.image-porto {
+  width: 300px;
 }
