@@ -47,6 +47,10 @@ footer {
   color: #61dafb;
 }
 
+.content{
+  width: 100vw;
+}
+
 .home {
   height: 100vh;
   overflow: hidden;
