@@ -18,7 +18,7 @@ const override = css`
   margin: 0 auto;
 `;
 
-function App() {
+const App = () => {
   // loading set
   const [loading, setLoading] = useState(true);
 
@@ -56,6 +56,6 @@ function App() {
       )}
     </>
   );
-}
+};
 
 export default App;
