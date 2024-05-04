@@ -44,7 +44,7 @@ const App = () => {
           />
         </div>
       ) : (
-        <div className="container-fluid">
+        <div className="content">
           <Navbar />
           <Home />
           <AboutPage />
