@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Navigation = () => {
   return (
     <>
-      <Navbar expand="lg" className=" bg-primary sticky-top">
+      <Navbar expand="lg" className="navbar sticky-top">
         <Container>
           <Navbar.Brand className="ms-4 text-white fw-bold" href="#home">
             My Portofolio

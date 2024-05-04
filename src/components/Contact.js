@@ -15,11 +15,9 @@ const Contact = () => {
           md={8}
           className="d-flex flex-column align-items-center mx-4"
         >
-          <Col lg={8} xs={11} md={8}>
+          <Col lg={8} xs={12} md={8}>
             <div className="card my-4">
-              <div className="card-header fs-4 text-white bg-primary py-2">
-                Contact Us
-              </div>
+              <div className="card-header fs-4 text-white py-2">Contact Us</div>
               <div className="card-body">
                 <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
