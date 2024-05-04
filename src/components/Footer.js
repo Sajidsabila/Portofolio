@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <div className="my-2 mx-5 fw-bold text-center text-white">
+          <div className="my-2  fw-bold text-center text-white">
             &copy; Muh Esa Susilo Sajid Sabilla
           </div>
         </Row>
